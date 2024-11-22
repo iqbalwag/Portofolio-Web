@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="nyoba.css">
+    <title>Portofolio</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="navbar">
+        <img id="home-navbar" data-slide="0" src="/assets/smile.png" alt="" class="active">
+        <!-- <li id="home-navbar" data-slide="0" class="active">Home</li> ganti logo -->
+        <li data-slide="1">About Me</li>
+        <li data-slide="2">Projects</li>
+        <li data-slide="3">Contact</li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Swiper Container -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div id="home" class="swiper-slide">
+        <div class="home-content">
+          <div class="typewriter">
+            <h1>Welcome To My Profile Web.</h1>
+          </div>
+          <p>Here you can see about</p>
+          <div class="home-link">
+            <img src="/assets/navbar.png" alt="">
+            ME
+          </div>
+          <div class="home-link">
+            <img src="/assets/navbar.png" alt="">
+            My<br>Projects
+          </div>
+          <div class="home-link">
+            <img src="/assets/navbar.png" alt="">
+            My<br>Contacts
+          </div>
+        </div>
+      </div>
+      <div id="aboutme" class="swiper-slide">
+        <div class="swiper swiper-container2">
+          <div id="popo" class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="me-content">
+                <div id="me-photo" class="photo"></div>
+                <h4>Hi, my name's <span>Achmad Iqbal Prasetya</span></h4><br>
+                <p>I'm a Fresh Graduate from Bachelor of Computer Science. I have a strong interest in the IT stuff.<br>I possess several skills in programming, such as HTML/CSS/JS, Laravel, Tailwind CSS, and Flutter. I am an adaptable, meticulous person with a strong curiosity.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="college-content">
+                <div id="college-photo" class="photo"></div>
+                <h4>I'm used to study in <span>UNTAG SURABAYA</span></h4><br>
+                <p>I'm a Fresh Graduate from Bachelor of Computer Science, balalalalalallaallalalal</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="hobby-content">
+                <div id="hobby-photo" class="photo">
+                  <img src="/assets/hobby-icon.png" alt="" title="entahlah">
+                </div>
+                <h4>What i like to do</h4><br>
+                <div class="img-wrapper">
+                  <div class="hobby-img gaming" title="Gaming"></div>
+                  <div class="hobby-img music" title="Music"></div>
+                  <div class="hobby-img film" title="Film"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div id="projects" class="swiper-slide">
+        <p>The Projects that i've worked on</p><br>
+        <div id="projects-container" class="swiper swiper-container3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide projects-grid">
+              <img src="/assets/project1-1.png" class="img1">
+              <img src="/assets/project1-2.png" class="img2">
+              <h2>Social Media App (Flutter)</h2>
+              <div class="projects-desc">
+                <p>Proyek ini adalah sebuah aplikasi sosial media untuk platform android yang digunakan khusus untuk membagikan sebuah gambar/karya yang ingin dibagikan ke semuanya. Saya menggunakan framework Flutter dalam pengembangannya dikarenakan saya ingin mempelajari framework tersebut yang dikatakan sedang populer dalam mengembangkan software android.</p>
+              </div>
+            </div>
+            <div class="swiper-slide projects-grid">
+              <img src="/assets/project2-1.png" class="img1">
+              <img src="/assets/project2-2.png" class="img2">
+              <h2>Game AR Chord Guitar</h2>
+              <div class="projects-desc">
+                <p>blablalblblbalbal</p>
+              </div>
+            </div>
+            <div class="swiper-slide projects-grid">
+              <img src="/assets/project3-1.png" class="img1">
+              <img src="/assets/project3-2.png" class="img2">
+              <h2>Onde-onde Mamah</h2>
+              <div class="projects-desc">
+                <p>blablalblblbalbal</p>
+              </div>
+            </div>
+            <div class="swiper-slide projects-grid">
+              <img src="/assets/project4-1.png" class="img1">
+              <img src="/assets/project4-2.png" class="img2">
+              <h2>TODO (Laravel)</h2>
+              <div class="projects-desc">
+                <p>blablalblblbalbal</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div id="contacts" class="swiper-slide">
+        You can connect with me by :
+        <ul class="contacts-ul">
+          <li class="contacts-li">
+            <a href="https://www.instagram.com/achiqbalp/" target="_blank">
+              <i class="fa fa-instagram"></i>
+              achiqbalp
+            </a>
+          </li>
+          <li class="contacts-li">
+            <a href="https://www.facebook.com/achiqbalp" target="_blank">
+              <i class="fa fa-facebook"></i>
+              achiqbalp
+            </a>
+          </li>
+          <li class="contacts-li">
+            <a href="https://github.com/iqbalwag" target="_blank">
+              <i class="fa fa-github"></i>
+              iqbalwag
+            </a>
+          </li>
+          <li class="contacts-li">
+            <a href="https://wa.me/6285850775655" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+              +62 858-5077-5655
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    
+    
+
+  <script src="nyoba.js"></script>
+</body>
+</html>
