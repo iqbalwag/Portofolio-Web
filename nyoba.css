@@ -116,7 +116,7 @@ ul {
 }
 
 #home {
-  background-image: url('/assets/bg-upscaler.jpg');
+  background-image: url('../public/bg-upscaler.jpg');
   background-size: cover;
 }
 
@@ -260,21 +260,21 @@ span {
 }
 
 #me-photo {
-  background-image: url("/assets/pp.jpg");
+  background-image: url("../public/pp.jpg");
   background-size: cover;
   width: 150px;
   height: 200px;
 }
 
 #college-photo {
-  background-image: url("/assets/UNTAG.jpg");
+  background-image: url("../public/UNTAG.jpg");
   background-size: cover;
   width: 300px;
   height: 200px;
 }
 
 #hobby-photo {
-  background-image: url("/assets/mhw.png");
+  background-image: url("../public/mhw.png");
   background-size: cover;
   width: 150px;
   height: 200px;
@@ -302,19 +302,19 @@ span {
 }
 
 .gaming {
-  background-image: url("/assets/gaming-icon.png");
+  background-image: url("../public/gaming-icon.png");
   background-size: cover;
 }
 
 .music {
-  background-image: url("/assets/music-icon.png");
+  background-image: url("../public/music-icon.png");
   background-size: calc(100% - 20px);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .film {
-  background-image: url("/assets/film-icon.png");
+  background-image: url("../public/film-icon.png");
   background-size: calc(100% - 20px);
   background-repeat: no-repeat;
   background-position: center;
@@ -375,18 +375,6 @@ span {
 
 .projects-grid .img2 {
   grid-area: 1 / 2 / 3 / 3;
-}
-
-.projects-grid h2 {
-  /* grid-row: 1;
-  grid-column: 2; */
-  /* border: 3px solid red; */
-}
-
-.projects-desc {
-  /* grid-row: 2;
-  grid-column: 2; */
-  /* border: 3px solid red; */
 }
 
 .swiper-pagination-bullet {
